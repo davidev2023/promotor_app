@@ -36,10 +36,11 @@ body{
 }
 .lojas {
     font-size: 20px;
-    display: flex;
+    display:flex;
     flex-direction:column ;
-    background: rgb(255, 255, 255);
+    background-color: white;
     overflow-y: scroll;
+
     
 
 
@@ -49,10 +50,11 @@ body{
 .flex-item {
     width: px;
     height:px;
-    background: rgba(190, 190, 194, 0.719);
+    background: rgba(245, 245, 247, 0.753);
     margin: 3px;
 
-}.flex-item img{
+}
+.flex-item img{
     width:150px;
     height: 150px;
 }
