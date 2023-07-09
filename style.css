@@ -30,7 +30,7 @@ body{
     position: absolute;
     top: 4px;
     left: 0;
-    transform: translate(0, -50%);
+    text-transform: translate(0, -50%);
     color: aliceblue;
     text-shadow:  #000 -2px px 2px;
     color: rgb(0, 0, 0);
