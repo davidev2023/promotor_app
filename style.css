@@ -22,12 +22,12 @@ body{
     
 }
 .nome-promotor{
-    position: absolute;
-    top: 15px;
-    left: 50%;
+    position: relative;
+    text-align:center;
+    top: 10px;
+    
     color: rgb(255, 251, 251);
     text-shadow:  #25699100 -2px 0px 1px;
-    transform: translate(-50%);
     font-size: 9px;
   
 }
