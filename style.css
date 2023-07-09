@@ -5,16 +5,12 @@
     text-decoration: none;
     list-style: none;
     font-family: "Poppins",sans-serif;
-    
-
 }
-
 body{
     overflow: hidden;
     overflow-y: scroll;
     
 }
-
 .cabecalho{
     position:relative;
     background-color: rgb(6, 114, 114);
@@ -39,20 +35,13 @@ body{
     display:flex;
     flex-direction:column ;
     background-color: white;
-    overflow-y: scroll;
-
-    
-
-
-    
+    overflow-y: scroll;  
 }
-
 .flex-item {
     width: px;
     height:px;
     background: rgba(245, 245, 247, 0.753);
     margin: 3px;
-
 }
 .flex-item img{
     width:150px;
@@ -63,10 +52,6 @@ body{
 }
 .detalhes {
     position:absolute;
-    left: 160px;
-    
-    
-
-    
+    left: 160px; 
 }
     
