@@ -1,19 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: order-box;
     text-decoration: none;
     list-style: none;
     font-family: "Poppins",sans-serif;
 }
 body{
     overflow: hidden;
-    overflow-y: scroll;
     
 }
 .cabecalho{
     position:relative;
-    background-color: rgb(6, 114, 114);
+    background-color: rgb(25, 40, 104);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -24,10 +22,12 @@ body{
 }
 .nome-promotor{
     position: absolute;
-    top: 4px;
-    left: 10px;
-    color: aliceblue;
-    text-shadow:  #000 -2px px 2px;
+    top: 15px;
+    left: 50%;
+    color: rgb(255, 251, 251);
+    text-shadow:  #25699100 -2px 0px 1px;
+    transform: translate(-50%);
+    font-size: 9px;
   
 }
 .lojas {
@@ -54,4 +54,40 @@ body{
     position:absolute;
     left: 160px; 
 }
+.menu{
+    left: 50px;
+}
+.menu{
+    position: absolute;
+    font-size: 30px;
+    left: 95%;
+    top: 6px;
     
+}
+.cabecalho-pe{
+    position:fixed;
+    background-color: rgb(25, 40, 104);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 7vh;
+    top: 93%;
+    border: solid 2px #000302;
+    border-bottom: 15px;
+}
+.nav-bar-pe{
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    color: #59df24f1;
+    
+    transform: translate(-50%);
+    font-size: 9px;
+
+}
+.menu-baixo{
+    position: absolute;
+    font-size: 30px;
+    left: 70%;
+    top: 6px;
+}
