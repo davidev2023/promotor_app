@@ -8,6 +8,7 @@
 body{
     overflow: hidden;
     overflow-y: scroll;
+    background-image: url(./papel_parede/textura\ branca.jpg);
     
 }
 .cabecalho{
@@ -24,8 +25,7 @@ body{
 .nome-promotor{
     position: relative;
     text-align:center;
-    top: 10px;
-    
+    top: 6px;
     color: rgb(255, 251, 251);
     text-shadow:  #25699100 -2px 0px 1px;
     font-size: 9px;
@@ -36,17 +36,26 @@ body{
     display:flex;
     flex-direction:column ;
     background-color: white;
+    margin-bottom: 20%;
       
 }
 .flex-item {
     width: px;
     height:px;
-    background: rgba(245, 245, 247, 0.753);
+    background: rgba(174, 187, 245, 0.705);
     margin: 3px;
+    border-radius: 20px;
+}
+
+.flex-item button{
+    border-radius: 20px;
+    height: 150px ;
 }
 .flex-item img{
     width:150px;
     height: 150px;
+    border-radius: 20px;
+    
 }
 .flex-item h1{
     font-size: 15px;
@@ -87,4 +96,9 @@ body{
     font-size: 30px;
     left: 70%;
     top: 6px;
+}
+h1{
+    margin-left: 20px;
+    margin-right: 26px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
