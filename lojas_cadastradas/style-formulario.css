@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+}
+
+h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 48px;
+    color: aliceblue;
+}
+.selecao{
+     position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.botao{
+ position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 40px;
+    background-color: rgb(18, 77, 153);
+    color: aliceblue;
+}
+body{
+    background-image: url(./wp11936838.jpg);
+}

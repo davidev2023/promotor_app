@@ -1,9 +1,17 @@
-<form action="https://api.sheetmonkey.io/form/rJ5hmTHvJbmE8bWRCd95r3" method="post">
-    <!-- Put HTML input fields in here and see how they fill up your sheet -->
-    <input type="hidden" name="Nome da loja" value="Sim atacado Garavelo" required>
-    <input type="hidden" name="Endereço" value="Garavelo-GO" required>
-    <input type="hidden" name="Data de visita" value="x-sheetmonkey-current-date-time" required />
-    <label><input type="radio" name="PONTO" value="Entrada" /> Entrada <input type="radio"name="PONTO" value="Saida" /> Saida</label>
-    <input type="submit" value="Sign Up" />
-</form>
+
+<head>
+    <link rel="stylesheet" href="./style-formulario.css">
+</head>
+<body>
+    <h1>check-in</h1>
+    <form action="https://api.sheetmonkey.io/form/rJ5hmTHvJbmE8bWRCd95r3" method="post">
+        <!-- Put HTML input fields in here and see how they fill up your sheet -->
+        <input type="hidden" name="Nome da loja" value="Sim atacado Garavelo" required>
+        <input type="hidden" name="Endereço" value="Garavelo-GO" required>
+        <input type="hidden" name="Data de visita" value="x-sheetmonkey-current-date-time" required />
+        <label class="selecao"><input type="radio" name="PONTO" value="Entrada" /> Entrada <input type="radio" name="PONTO"
+                value="Saida" /> Saida</label>
+        <input class="botao" type="submit" value="LOGAR" />
+    </form>
+</body>
 
