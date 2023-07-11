@@ -35,16 +35,17 @@ body{
     font-size: 20px;
     display:flex;
     flex-direction:column ;
-    background-color: white;
+    background-color: rgba(55, 55, 59, 0.692);
     margin-bottom: 20%;
       
 }
 .flex-item {
     width: px;
     height:px;
-    background: rgba(174, 187, 245, 0.705);
+    background: rgba(255, 255, 255, 0.781);
     margin: 3px;
     border-radius: 20px;
+    
 }
 
 .flex-item button{
@@ -65,10 +66,10 @@ body{
     left: 160px; 
 }
 .menu{
-    position: absolute;
-    font-size: 30px;
-    left: 95%;
-    top: 6px;
+    position:absolute;
+    font-size: 25px;
+    left: 93%;
+    top: 30%;
     
 }
 .cabecalho-pe{
