@@ -8,77 +8,133 @@
 body{
     overflow: hidden;
     overflow-y: scroll;
-    background-image: url(./papel_parede/textura\ branca.jpg);
+    background-color:rgb(32,35,42);
     
 }
-.cabecalho{
-    position:relative;
-    background-color: rgb(25, 40, 104);
-    background-size: cover;
-    background-position: center;
+.cabecalho-1{
+    position:fixed;
+    background-color: rgb(43,47,56);
     width: 100%;
     height: 7vh;
-    border: solid 2px #000302;
-    border-bottom: 15px;
+    z-index:1000; /* coloca o elemnto na frente de todos*/   
+}
+.informacao{
+    position: fixed;
+    background-color: rgb(32,35,42);
+    width: 100%;
+    height: 270px;
+    z-index:900; 
+}
+.dia{
+    position: relative;
+    color: white;
+    padding-top: 59px;
+    margin-left: -110px;
+}
+
+
+.bloco-semanal{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 7px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-around;
+    
+    
     
 }
+.bl{
+    width: 70px;
+    height: 49px;
+    background-color: rgb(43,47,56);
+    border:1px solid black;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+
 .nome-promotor{
     position: relative;
     text-align:center;
-    top: 20px;
+    top: 33%;
     color: rgb(255, 251, 251);
     text-shadow:  #25699100 -2px 0px 1px;
     font-size: 9px;
+    left: 124px;
   
 }
 .lojas {
     font-size: 20px;
     display:flex;
     flex-direction:column ;
-    background-color: rgba(55, 55, 59, 0.692);
-    margin-bottom: 20%;
+    background-color: rgba(240, 62, 8, 0);
+    padding-bottom: 70%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20%;
       
 }
 .flex-item {
-    width: px;
-    height:px;
-    background: rgba(255, 255, 255, 0.781);
-    margin: 3px;
-    border-radius: 20px;
     
+    width: 100%;
+    height:150px;
+    background: rgb(43,47,56);
+    border-radius: 13px;
+    margin-top: 200px;
+    margin-bottom: -175px;
+    border-left: 11px solid coral;
 }
 
-.flex-item button{
-    border-radius: 20px;
-    height: 150px ;
-}
+
 .flex-item img{
-    width:150px;
-    height: 150px;
-    border-radius: 20px;
+    position: absolute;
+    width:60px;
+    height: 60px;
+    border-radius: 10px;
+    left: 40px;
+    margin-top: 30px;
     
 }
 .flex-item h1{
-    font-size: 15px;
+    font-size: 12px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .detalhes {
     position:absolute;
-    left: 160px; 
+    left: 130px; 
+    margin-top: 65px;
+    margin-left:0px;
+    padding-right: 20px;
+    
+    
+    
+    
 }
 .menu{
     position:absolute;
     font-size: 25px;
     left: 93%;
     top: 30%;
+
     
 }
 .cabecalho-pe{
     position:fixed;
-    background-color: rgb(25, 40, 104);
+    background-color: rgb(43,47,56);
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 7vh;
+    height: 100%;
     top: 93%;
     border: solid 2px #000302;
     border-bottom: 15px;
@@ -87,19 +143,27 @@ body{
     position: fixed;
     top: 95%;
     left: 50%;
-    color: #59df24f1;
     transform: translate(-50%);
     font-size: 9px;
 
 }
-.menu-baixo{
-    position: absolute;
-    font-size: 30px;
-    left: 70%;
-    top: 6px;
-}
+
 h1{
-    margin-left: 20px;
-    margin-right: 26px;
+    
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: -33px;
 }
+h2{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: absolute;
+    left: 130px;
+    margin-top: 20px;
+}
+
+.online{
+   color:rgb(202,172,48);
+}
+
