@@ -56,21 +56,58 @@ body{
     padding-top:20px;
     padding-bottom: 20px;
     border-radius: 10px;
+    
 }
 .semana li.atual {
     background-color: rgb(43, 47, 56);
-    border: 5px solid rgb(219, 167, 69);
+    border: 5px solid rgb(219, 167, 69) ;
     font-size:30px;
-    margin-top: -30px;
-    padding-bottom: 40px;
+    margin-top: -30px; 
+    animation: neon 7s linear infinite;
+    
 }
+
+    @keyframes neon {
+     from {
+        filter: drop-shadow(0 0 0 rgb(206, 203, 26));
+     }
+     to {
+        filter: drop-shadow(0 0 10px rgb(202, 216, 12));
+     }
+     to {
+        filter: drop-shadow(0 0 10px rgb(200,200,200));
+     }
+    } 
+    
+
+
 .semana li.atual h1 {
+    
+}
+.semana li.atual h2 {
+
+}
+
+.semana li h1{
+    left: 129px;
+    font-size: 24px;
+    top: -20px;
+    left: -250px;
+}
+.semana li.atual{
+
+}
+.semana li h2{
+    top: -42px;
+    left: -197px;
+    font-size: 24px;
+}
+
+.semana li h3{
     position: absolute;
-    transform: translateY(102px);
-    font: 1.6rem;
-    color: white;
-    top: 70px;
-    left: 327px;
+    top: -20px;
+    font-size: 24px;
+    left: -110px;
 }
 
 .nome-promotor{
