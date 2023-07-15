@@ -80,7 +80,7 @@ body{
     left: 325px;
     font-size: 15px;
 }
-.semana li.atual h3 {
+.semana li.atual h2 {
     position: absolute;
     transform: translateY(102px);
     color: white;
