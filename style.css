@@ -33,7 +33,7 @@ body{
 }
 
 
-.bloco-semanal{
+.semana{
     display: flex;
     margin-top: 50px;
     margin-left: 5px;
@@ -48,7 +48,7 @@ body{
     
     
 }
-.bl{
+.semana li{
     width: 70px;
     height: 49px;
     background-color: rgb(43,47,56);
@@ -56,10 +56,37 @@ body{
     padding-top:20px;
     padding-bottom: 20px;
     border-radius: 10px;
-    
-    
-    
-    
+}
+.semana li.atual {
+    background-color: rgb(43, 47, 56);
+    border: 5px solid rgb(219, 167, 69);
+    font-size:30px;
+    margin-top: -30px;
+    padding-bottom: 40px;
+}
+.semana li.atual h1 {
+    position: absolute;
+    transform: translateY(102px);
+    font-size: 20px;
+    color: white;
+    top: 80px;
+    left: 331px;
+}
+.semana li.atual h5 {
+    position: absolute;
+    transform: translateY(102px);
+    color: white;
+    top:113px;
+    left: 325px;
+    font-size: 15px;
+}
+.semana li.atual h3 {
+    position: absolute;
+    transform: translateY(102px);
+    color: white;
+    top:145px;
+    left: 325px;
+    font-size: 15px;
 }
 
 .nome-promotor{
