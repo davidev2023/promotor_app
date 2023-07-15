@@ -67,26 +67,10 @@ body{
 .semana li.atual h1 {
     position: absolute;
     transform: translateY(102px);
-    font-size: 20px;
+    font: 1.6rem;
     color: white;
-    top: 80px;
-    left: 331px;
-}
-.semana li.atual h5 {
-    position: absolute;
-    transform: translateY(102px);
-    color: white;
-    top:113px;
-    left: 325px;
-    font-size: 15px;
-}
-.semana li.atual h2 {
-    position: absolute;
-    transform: translateY(102px);
-    color: white;
-    top:145px;
-    left: 325px;
-    font-size: 15px;
+    top: 70px;
+    left: 327px;
 }
 
 .nome-promotor{
