@@ -25,90 +25,30 @@ body{
     height: 270px;
     z-index:900; 
 }
-.dia{
-    position: relative;
+.bem-vindo{
     color: white;
-    padding-top: 59px;
-    margin-left: -110px;
-}
-
-
-.semana{
-    display: flex;
-    margin-top: 50px;
-    margin-left: 5px;
-    margin-right: 7px;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    font-size: 20px;
-    text-align: center;
-    justify-content: space-around;
-    
-    
-    
-}
-.semana li{
-    width: 70px;
-    height: 49px;
-    background-color: rgb(43,47,56);
-    border:1px solid black;
-    padding-top:20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    
-}
-.semana li.atual {
-    background-color: rgb(43, 47, 56);
-    border: 5px solid rgb(219, 167, 69) ;
-    font-size:30px;
-    margin-top: -30px; 
-    animation: neon 7s linear infinite;
-    
-}
-
-    @keyframes neon {
-     from {
-        filter: drop-shadow(0 0 0 rgb(206, 203, 26));
-     }
-     to {
-        filter: drop-shadow(0 0 10px rgb(202, 216, 12));
-     }
-     to {
-        filter: drop-shadow(0 0 10px rgb(200,200,200));
-     }
-    } 
-    
-
-
-.semana li.atual h1 {
-    
-}
-.semana li.atual h2 {
-
-}
-
-.semana li h1{
-    left: 129px;
-    font-size: 24px;
-    top: -20px;
-    left: -250px;
-}
-.semana li.atual{
-
-}
-.semana li h2{
-    top: -42px;
-    left: -197px;
-    font-size: 24px;
-}
-
-.semana li h3{
     position: absolute;
-    top: -20px;
-    font-size: 24px;
-    left: -110px;
+    left:81px;
+    top:120px;
+    padding-left: 240px;
+    text-align: justify;
+    text-align: center;
+    font-size: 10px;
+
 }
+.leitura-text{
+    color: white;
+    position: absolute;
+    left:15px;
+    top: 70px;
+    text-align: justify;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+
 
 .nome-promotor{
     position: relative;

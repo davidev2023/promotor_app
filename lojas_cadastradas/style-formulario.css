@@ -8,7 +8,7 @@
 
 .cabecalho{
     position:relative;
-    background-color: rgb(25, 40, 104);
+    background-color: rgb(43,47,56);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -35,7 +35,7 @@
 }
 .selecao{
      position: absolute;
-    top: 50%;
+    top: 60%;
     left: 16%;
     font-size:30px;
     color: aliceblue;
@@ -71,7 +71,7 @@ body{
 
 .cabecalho-pe{
     position:fixed;
-    background-color: rgb(25, 40, 104);
+    background-color: rgb(43,47,56);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -90,10 +90,10 @@ body{
 }
 .online{
     position: absolute;
-    left: -30px;
+    left: -20px;
     top: 0;
     color: #59df24f1;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 .text-navbar{
